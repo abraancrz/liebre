@@ -5,7 +5,7 @@ const app = express();
 
 app.use(express.static(path.join(__dirname, '/public')));
 
-app.get('/mostrar_sitio', (req,res) =>{
+app.get("/", (req,res) =>{
     res.sendFile((__dirname + '/views/index.html'));  // Permite enviar un archivo HTML
 });
 
