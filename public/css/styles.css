@@ -1,0 +1,299 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto';
+    background-color: #ebebeb;
+}
+.cuerpo-del-header{
+    /*Color de fondo del header */
+    background-color: #EAC926;
+    padding: 20px;
+}
+
+.button{
+    background-color: #1B10D0;
+    color:white;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+
+.logo{
+    width: 200px;
+}
+
+.cuotas-superior{
+    font-weight: 400px;
+    text-align: center;
+}
+
+.cuerpo-inferior ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cuerpo-inferior a{
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+.presentacion {
+    width: 100%
+}
+.visita{
+    font-size:24px;
+    text-align: center;
+}
+
+.seccion-visitas h2{
+    font-size: 12px;
+}
+.seccion-visitas h3{
+    font-size: 18px;
+}
+.seccion-visitas h4{
+    font-size: 16px;
+    color: #39b54a
+}
+
+.cafetera-visitas{
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.macbook-visitas{
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.tv-visitas{
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.galaxy-visitas{
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.seccion-visitas img{
+    
+    width: 100%;
+    border-radius: 3px;
+
+}
+
+.seccion-visitas {
+    margin-top: 40px;
+    margin-bottom: 2px;
+    margin-left: 13px;
+    margin-right: 13px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+     
+}
+
+
+.ofertas {
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.seccion-ofertas{
+    margin-top: 40px;
+    margin-bottom: 2px;
+    margin-left: 13px;
+    margin-right: 13px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion-ofertas img{
+     width: 100%;
+    border-radius: 3px;
+    
+}
+
+.seccion-ofertas h2{
+    font-size: 12px;
+}
+.seccion-ofertas h3{
+    font-size: 18px;
+}
+
+.seccion-ofertas h4{
+    font-size: 16px;
+    color: #39b54a;
+}
+
+.ofert-tv{
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.ofert-galaxy{
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.ofert-macbook{
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.ofert-cafetera{
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.cuerpo-del-footer {
+    background-color:   white;
+}
+
+#tarjeta {
+    margin-top: 30px;
+    text-align: center;
+}
+.tarjeta-efectivo{
+    text-align: center;
+}
+
+.tarjeta-texto {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#regalo {
+    text-align: center;
+}
+
+.envios {
+    text-align: center;
+}
+
+.envios-texto{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#icon-seguridad{
+    text-align: center;
+}
+
+.seguridad {
+    text-align: center;
+}
+
+.texto-seguridad{
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+@media (min-width: 768px) {
+
+    .cuerpo-superior{
+        display: flex;
+        justify-content: space-between;
+    }
+    .cuotas-superior{
+        max-width: 350px;
+        text-align: right;
+    }
+   
+    .button {
+        display: none;
+    }
+
+    .cuerpo-inferior{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cuerpo-inferior ul{
+        display: flex;
+    }
+
+    .cuerpo-inferior li{
+        margin: 0px 5px;
+    }
+
+    .seccion-visitas img{
+    
+        width: 100%;
+        border-radius: 3px;    
+    }
+    
+    .seccion-visitas {
+        margin-top: 40px;
+        margin-bottom: 2px;
+        margin-left: 13px;
+        margin-right: 13px;
+        padding: 0px;
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: row nowrap;
+    
+    }
+
+    .cafetera-visitas{
+        margin-right: 30px;
+    }
+    .macbook-visitas{
+        margin-right: 30px;
+    }
+
+    .tv-visitas{
+        margin-right: 30px;
+    }
+
+    .seccion-ofertas{
+        margin-top: 40px;
+        margin-bottom: 2px;
+        margin-left: 13px;
+        margin-right: 13px;
+        padding: 0px;
+        box-sizing: border-box;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    
+    .ofert-tv{
+        margin-right: 30px;
+    }
+
+    .ofert-galaxy{
+        margin-right: 30px;
+    }
+    .ofert-macbook{
+        margin-right: 30px;
+    }
+
+}
+
+@media (min-width: 1200px){
+    .cuerpo-superior, .cuerpo-inferior{
+        max-width: 1200px;
+    }
+
+}
